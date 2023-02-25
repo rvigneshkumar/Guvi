@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head><link rel="stylesheet" href="./css/register.css"></head>
+<body> 
+<div>
+  <div class="container">
+    <h1>Register</h1>
+    <h3>Please fill in this form to create an account.</h3>
+    <hr />
+
+    <label for="username"><b>User Name</b></label>
+    <input
+      type="text"
+      placeholder="Enter User Name"
+      name="username"
+      id="register-username"
+      required
+    />
+
+    <label for="email"><b>Email</b></label>
+    <input
+      type="text"
+      placeholder="Enter your Email"
+      name="email"
+      id="register-email"
+      required
+    />
+
+    <label for="age"><b>Age</b></label>
+    <input
+      type="number"
+      placeholder="Enter your Age"
+      name="age"
+      id="register-age"
+      required
+    />
+
+    <label for="psw"><b>Password</b></label>
+    <input
+      type="password"
+      placeholder="Enter Password"
+      name="psw"
+      id="register-password"
+      required
+    />
+
+    <label for="psw-repeat"><b>Confirm Password</b></label>
+    <input
+      type="password"
+      placeholder="Repeat Password"
+      name="psw-repeat"
+      id="register-password-repeat"
+      required
+    />
+    <hr />
+    <p>
+      By creating an account you agree to our <a href="#">Terms & Privacy</a>.
+    </p>
+    <button type="submit" id="register" onclick="registerUser()">Register</button>
+    <hr/>
+    <div >
+        <p>Already have an account? <a href="./login.html">Sign in</a>.</p>
+      </div>
+  </div>
+
+  
+  <script src="./js/register.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.container {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: palegoldenrod;
+  width: 500px;
+  border-radius: 5px;
+  margin: auto;
+}
+.header {
+  font-size: 40px;
+}
+
+.user-info {
+  font-size: 30px;
+  margin: 10px;
+}

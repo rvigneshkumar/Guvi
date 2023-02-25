@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+  display: block;
+  padding: 10px 20px;
+  background-color: grey;
+  margin: 20px;
+}
+.button:hover {
+  background-color: #aaa;
+}
+a {
+  text-decoration: none;
+}
